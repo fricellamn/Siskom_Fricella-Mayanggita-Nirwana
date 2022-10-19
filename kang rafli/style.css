@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
-    background: pink;
+    /* background: pink; */
     font-family: 'Poppins', sans-serif;
+    background: url("background.png");
+    background-size: cover;
+    background-position: top center;
 }
 
 * {
@@ -22,7 +25,9 @@ p {
 h1 {
     font-size: 64px;
     font-weight: bold;
-    padding-bottom: 16px;
+    padding: 0px 0px 16px 0px;
+    //margin: 16px 20px 16px 20px;
+    //background-color: wheat;
 }
 
 p {
@@ -48,4 +53,29 @@ a:active {
 
 a:visited {
     color: red;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    width: 40%
+}
+
+.hero-text {
+    
+}
+
+.hero-image {
+   
 }
